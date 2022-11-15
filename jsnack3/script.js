@@ -9,6 +9,10 @@ let n, somma = 0;
 
 for (let i = 0; i < 10; i++) {
   n = parseInt(prompt('Inserisci un numero'));
+  if(isNaN(n)){
+    console.log("inserisci un numero giusto!");
+    break;
+  }
   somma += n;
 }
 
