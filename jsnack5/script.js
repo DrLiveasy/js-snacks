@@ -18,5 +18,5 @@ for (let i = 0; i < 6; i++) {
     }
 }
 
-console.log(arrayNumeriDispari);
-
+console.log("i numeri dispari sono : " + arrayNumeriDispari);
+console.log("hai inserito "+ pari +" numeri pari");
