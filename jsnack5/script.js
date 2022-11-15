@@ -4,7 +4,7 @@ se è dispari inseriscilo nell’array. Stampa l'array alla fine.
 Javascript - JS*/
 
 
-let arrayNumeriDispari = [""];
+let arrayNumeriDispari = [];
 let pari = 0;
 let dispari = 0;
 
@@ -14,7 +14,7 @@ for (let i = 0; i < 6; i++) {
     if (n % 2 == 0) {
         pari++;
     } else {
-        arrayNumeriDispari += n + (",") ;
+        arrayNumeriDispari += n + (" ") ;
     }
 }
 
