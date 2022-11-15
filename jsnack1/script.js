@@ -1,3 +1,7 @@
+/*L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore.
+Javascript - JS*/
+
 // input prompt 
 let num1 = parseInt (prompt("Inserisci un numero!"));
 let num2 = parseInt (prompt("Inserisci un'altro numero !"));
