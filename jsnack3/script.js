@@ -5,7 +5,7 @@ Javascript - JS
 */
 
 let n, somma = 0;
-let èNumero= false;
+let èNumero = true;
 
 
 for (let i = 0; i < 10; i++) {
@@ -13,11 +13,11 @@ for (let i = 0; i < 10; i++) {
   if(isNaN(n)){
     console.log("inserisci un numero giusto!");
     èNumero = false;
-    break;
+  break;
   }
   somma += n;
 }
 
-if(!èNumero){
+if(èNumero){
 console.log('la somma è ', somma);
 }
