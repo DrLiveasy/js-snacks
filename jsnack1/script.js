@@ -5,7 +5,7 @@ Javascript - JS*/
 // input prompt 
 let num1 = parseInt (prompt("Inserisci un numero!"));
 let num2 = parseInt (prompt("Inserisci un'altro numero !"));
-
+//
 // i due numeri sono uguali o no ?
 if ( num1 == num2 ){
     console.log("i due numeri sono uguali");
